@@ -1,14 +1,14 @@
 """
-Geospatial Infrastructure System (ZIS) Data Processing and Export Module
+Master's Thesis: Geodata and automated GIS processes in the implementation of fiber optic infrastructure
 
 This module implements a comprehensive workflow for processing, filtering, and exporting 
 geospatial data related to broadband infrastructure planning and deployment. It integrates 
 data from multiple sources including PostGIS databases, applies spatial and attribute-based 
 funding classification, validates geometries, and exports results in standardized formats.
 
-Author: [Author Name]
-Institution: [University/Institution]
-Date: [Date]
+Author: Niklas Terler
+Institution: University of Graz
+Date: January 2026
 """
 
 import os
@@ -23,7 +23,7 @@ from dotenv import load_dotenv
 
 
 # ============================================================================
-# Configuration and Logging Setup
+# Configuration
 # ============================================================================
 
 load_dotenv("config.env")
